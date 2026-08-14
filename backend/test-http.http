@@ -1,0 +1,52 @@
+POST http://localhost:3001/mensaje_contacto
+Content-Type: application/json
+
+{
+  "nombre": "Nicolás Arrietax",
+  "email": "nicolas@example.com",
+  "celular": "3111234567",
+  "mensaje": "Hola, quiero más información",
+  "seccion_origen": "contacto",
+  "fecha_hora": "2025-07-10T13:00:00"
+}
+### Enviar evento
+POST http://localhost:3001/evento
+Content-Type: application/json
+
+{
+  "id": "ev-001",
+  "titulo": "Conferencia de Tecnología 2025",
+  "descripcion": "Un evento sobre avances en IA y desarrollo web.",
+  "fecha": "2025-10-15T09:00:00",
+  "lugar": "Centro de Convenciones de Medellín",
+  "imagen": "https://ejemplo.com/imagen-evento.jpg",
+  "tipo_evento": "Conferencia"
+}
+### Enviar experiencia
+POST http://localhost:3001/experiencia
+Content-Type: application/json
+
+{
+  "id": "exp-001",
+  "nombre": "Aventura en el río",
+  "titulo": "Rafting extremo",
+  "descripcion": "Disfruta de una experiencia llena de adrenalina bajando por rápidos de clase IV.",
+  "duracion": "4 horas",
+  "precio": 120000,
+  "imagen": "https://ejemplo.com/imagen-rafting.jpg",
+  "tipo_experiencia": "Aventura"
+}
+
+### Enviar producto
+POST http://localhost:3001/producto
+Content-Type: application/json
+
+{
+  "id": "prod-001",
+  "artesano_id": "art-123",
+  "titulo": "Joyería ancestral",
+  "nombre_producto": "Pulsera Wayuu",
+  "descripcion": "Pulsera tejida a mano por artesanos de La Guajira con materiales tradicionales.",
+  "precio": 45000,
+  "imagen": "https://ejemplo.com/imagen-pulsera.jpg"
+}

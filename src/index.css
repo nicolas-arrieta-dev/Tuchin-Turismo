@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados */
+body {
+  @apply bg-light text-dark;
+}
+
+/* Animaciones */
+.card {
+  @apply transition-all duration-300 ease-in-out transform;
+}
+
+.card:hover {
+  @apply -translate-y-1 scale-[1.02] shadow-xl;
+}
+
+/* Patrón de fondo para secciones */
+.pattern-section {
+  background-image: url('/src/assets/patterns/zenu-pattern.svg');
+  @apply bg-repeat bg-[length:300px] bg-opacity-10;
+}
+
+/* Animaciones para el menú móvil */
+.mobile-menu {
+  @apply transform translate-x-full transition-transform duration-500 ease-in-out;
+}
+
+.mobile-menu-open .mobile-menu {
+  @apply transform translate-x-0;
+}
+
+/* Sección Hero */
+.hero {
+  @apply relative h-screen flex items-center justify-center bg-cover bg-center bg-fixed;
+}
+
+/* Sección Eventos */
+.eventos-section {
+  @apply bg-cover bg-fixed;
+}
+
+/* Sección de contacto */
+.contact-section {
+  @apply bg-dark;
+}
