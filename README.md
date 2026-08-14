@@ -610,3 +610,5 @@ Este proyecto fue desarrollado en colaboración con Jorge Andrés Morales, contr
 Jorge Andrés Morales: [@ingjorgemorales](https://github.com/ingjorgemorales)
 
 Gracias por su participación y aporte durante el desarrollo del proyecto.
+
+<img width="1569" height="783" alt="image" src="https://github.com/user-attachments/assets/505ec8aa-89a2-4168-86a3-4a9d005499d5" />
