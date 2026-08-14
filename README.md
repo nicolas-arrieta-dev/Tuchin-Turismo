@@ -612,3 +612,4 @@ Jorge Andrés Morales: [@ingjorgemorales](https://github.com/ingjorgemorales)
 Gracias por su participación y aporte durante el desarrollo del proyecto.
 
 <img width="1569" height="783" alt="image" src="https://github.com/user-attachments/assets/505ec8aa-89a2-4168-86a3-4a9d005499d5" />
+<img width="686" height="386" alt="hat-route" src="https://github.com/user-attachments/assets/108f66b4-b091-4c8d-9f57-ca602ef7354a" />
